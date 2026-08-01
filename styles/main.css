@@ -333,7 +333,7 @@ h1, h2, h3, h4 {
     min-height: 85vh; /* Ocupa quase toda a tela */
     display: flex;
     align-items: center;
-    background-image: url('../assets/images/hero_ensaio_campo.jpg');
+    background-image: url('../assets/images/hero_novo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1125,7 +1125,7 @@ h1, h2, h3, h4 {
     }
     
     .hero-overlay {
-        background: linear-gradient(180deg, #1C2B33 0%, rgba(28, 43, 51, 0.9) 65%, rgba(28, 43, 51, 0.3) 100%);
+        background: linear-gradient(180deg, rgba(28, 43, 51, 0.8) 0%, rgba(28, 43, 51, 0.4) 50%, rgba(28, 43, 51, 0.1) 100%);
     }
 
     .nav-menu {

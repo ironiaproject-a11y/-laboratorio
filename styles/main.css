@@ -531,6 +531,35 @@ h1, h2, h3, h4 {
     flex: 1;
 }
 
+.service-card-special {
+    background-color: #f3f4f6;
+}
+
+.card-tags {
+    margin-bottom: var(--spacing-xs);
+}
+
+.tag-etapa, .tag-concluida {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tag-etapa {
+    background-color: rgba(26, 54, 93, 0.08);
+    color: var(--color-primary);
+}
+
+.tag-concluida {
+    background-color: rgba(107, 114, 128, 0.15);
+    color: var(--color-text);
+}
+
 .service-card-footer {
     margin-top: var(--spacing-md);
     padding-top: var(--spacing-md);

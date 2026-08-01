@@ -1150,11 +1150,22 @@ h1, h2, h3, h4 {
         --spacing-lg: 2rem;
     }
 
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 var(--spacing-xs);
+    }
+
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
         word-wrap: break-word;
         hyphens: auto;
-        padding: 0 var(--spacing-xs);
+        line-height: 1.2;
+    }
+
+    .hero-text p {
+        font-size: 1.05rem;
     }
     
     .hero-overlay {
@@ -1202,7 +1213,39 @@ h1, h2, h3, h4 {
     .mini-ficha {
         border-right: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-        padding: var(--spacing-md) 0;
+        padding: var(--spacing-sm) 0;
+        min-width: 100%;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+
+    .certificacao-banner {
+        flex-direction: row;
+        padding: var(--spacing-sm);
+        gap: var(--spacing-sm);
+    }
+
+    .diferenciais-grid {
+        gap: var(--spacing-md);
+    }
+
+    .portfolio-item {
+        width: 260px;
+        height: 190px;
+    }
+
+    .contato-form {
+        padding: var(--spacing-md);
+    }
+
+    .footer-brand p {
+        color: var(--color-text-light);
+    }
+
+    .section-header {
+        margin-bottom: var(--spacing-md);
     }
     
     .mini-ficha:last-child {
